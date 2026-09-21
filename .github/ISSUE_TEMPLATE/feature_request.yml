@@ -1,0 +1,22 @@
+name: Feature request
+description: Propose a useful product or engineering capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Engineering or user need
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed capability
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: References or validation data
+      description: Add public sources or test cases where relevant.
