@@ -1,0 +1,25 @@
+name: Model validation
+description: Submit a public validation case or model discrepancy
+title: "[Validation]: "
+labels: ["validation"]
+body:
+  - type: textarea
+    id: model
+    attributes:
+      label: Model or equation
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Public reference / dataset
+      description: Provide a traceable source and license information if applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Comparison
+      description: Describe inputs, expected values and observed values.
+    validations:
+      required: true
