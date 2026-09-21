@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software in research or engineering work, please cite it."
+title: "EV Thermal Performance Lab"
+type: software
+authors:
+  - family-names: "Pasupathi"
+    given-names: "Maheswaran"
+repository-code: "https://github.com/maheswaran-pasupathi/ev-thermal-lab-mahes"
+url: "https://ev-thermal-lab-mahes.streamlit.app"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-09-21
